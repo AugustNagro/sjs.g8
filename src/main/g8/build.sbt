@@ -1,7 +1,7 @@
 name := "$name$"
 organization := "$organization$"
 version := "$version$"
-scalaVersion := "2.12.1"
+scalaVersion := "2.12.2"
 
 enablePlugins(ScalaJSPlugin)
 persistLauncher := true
@@ -28,6 +28,6 @@ scalacOptions ++= Seq(
   "-Ywarn-value-discard",
   "-Ywarn-unused",
   "-feature",
-  "-Xlint"
+  "-Xlint",
+  "-Ypartial-unification"
 )
-

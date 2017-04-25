@@ -2,9 +2,9 @@ Minimal, non-modular [Giter8][g8] template for [Scala.js][sjs]
 
 Use `sbt new augustnagro/sjs.g8` to create a minimal Scala.js project with:
 
-* [Scala][scala] (2.12.1)
-* [SBT][sbt] (>= 0.13.13)
-* [Scala.js][sjs] (0.6.13)
+* [Scala][scala] (2.12.2)
+* [SBT][sbt] (>= 0.13.15)
+* [Scala.js][sjs] (0.6.15)
 * [ScalaCheck][scheck] (latest release)
 
 The settings are detailed [here][post]
